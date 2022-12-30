@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <title>N.I.F.S.</title>
+  </head>
+  <body>
+    <header>
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="p-5">
+              Nifs, сервис для автоматизации информирования учащихся
+            </h1>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 col-sm-12 mb-2">
+            <button
+              class="btn btn-primary headbtn"
+              data-bs-toggle="modal"
+              data-bs-target="#modalSign"
+            >
+              Войти
+            </button>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 col-sm-12 mb-2">
+            <button
+              class="btn btn-primary ml-2 mr-2 headbtn"
+              data-bs-toggle="modal"
+              data-bs-target="#modal"
+            >
+              Получить токен
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Дописать-->
+    <main>
+      <div class="container">
+        <div class="row col-12">
+          <h3>Что такое Nifs?</h3>
+          <p>
+            Все мы прекрасно понимаем что XXI век, это век развития
+            информационных технологий, но ростом этих технологий растёт и объём
+            информации поступающий в наш разум, и осозновать эту информацию
+            становится сложнее. Децентрализация внимания, неспособность
+            сосредоточится, постоянное поглощение информационного мусора в
+            социальных сетях. Умение систематизировать информацию, в наши дни,
+            играет большую роль, и чтобы помочь учащимся и учителям был
+            разработан этот сервис. Nifs (New Information Future School) - это
+            сервис для образовательных учреждений, главной задачей которого
+            является автоматизация информирования учащихся. Сервис избавляет
+            пользователя, как учителя, так и обучающегося, от некоторых рутинных
+            задач.
+          </p>
+          <h3>Какие задачи решает Nifs?</h3>
+          <p>Nifs позволяет:</p>
+          <ul class="list-group">
+            <li class="list-group-item">
+              Автоматизировать информирование учащихся
+            </li>
+            <li class="list-group-item">
+              Автоматически предоставлять доступ ученикам к расписанию занятий,
+              домашним работам, оценкам
+            </li>
+            <li class="list-group-item">
+              Создавать расписание и писать новости с помощью удобных и понятных
+              интерфейсов
+            </li>
+            <li class="list-group-item">
+              Оповещать учащихся с помощью ботов в популярных социальных сетях
+            </li>
+          </ul>
+          <h3>Как начать использовать Nifs?</h3>
+          <p>
+            Чтобы начать использовать Nifs, следует получить индивидуальный
+            токен, с помощью кнопки "Получить токен". Далее заполнить форму,
+            указав нужные данные: Регион, район, населённый пункт и уровень
+            администрирования (учащийся, учитель, администратор), далее указать
+            название образовательного учереждения и его контактные данные, имя и
+            фамилию. Имейте в виду, чтобы получить права учителя или
+            администратора, нужно ответить на письмо пришедшее на электронную
+            почту образовательного учреждения. Получив токен, требуется его
+            сохранить, и не в коем случае не терять. С помощью этого токена,
+            нажав на кнопку "Войти", вы будете напралены на вашу индивидуальную
+            страницу, где будет отображено расписание, домашняя работа, новости
+            и оценки (для учащихся), актуальная рабочая информация, инструмент
+            для выставления отметок и создания домашних работ, вкладка классного
+            руководства (для учителей), Панель создания расписания, панель для
+            создания новостей, а также все функции уровня учителя (для
+            администроторов)
+          </p>
+          <h3>Боты</h3>
+          <p>
+            Сервис имеет два разработанных бот-аккаунта для информирования
+            обучающихся. Боты размещены в популярных социальных сетях Вконтакте
+            и Телеграмм. Для связки бота с вашим аккаунтом Nifs в интеренте,
+            следует ввести свой уникальный токен и бот начнёт отслеживать вашу
+            страницу. Бот присылает новые данные по мере их поступления в
+            открытый доступ и сразу отправляет их вам в личном сообщении. Так же
+            у бота можно спросить данные в ручную, в личном сообщении будут
+            отправлены последние данные имеющиеся в памяти. У бота можно будет
+            запросить расписание, бланк оценок за выбранный промежуток времени,
+            домашнее задание на следующий учебный день и актуальные новости
+            учебного учреждения.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3>Остались вопросы или нужна наша помощь? Свяжитесь с нами!</h3>
+            <div class="text-end">
+              <h5>E-mail: kretovi780@gmail.com</h5>
+              <h5>Телефон: +7 914-173-05-37</h5>
+            </div>
+            <p class="p-4 text-center">Nifs, проект для конкурса</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Modal Sign in-->
+    <div
+      class="modal fade"
+      id="modalSign"
+      tabindex="-1"
+      aria-labelledby="modalSign"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalSign">Вход</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <label for="token" class="form-label">Токен</label>
+              <input
+                id="token"
+                class="form-control mb-2"
+                type="text"
+                placeholder="XXYYYZZZ000000000CHL"
+              />
+              <label for="Email" class="form-label">Email</label>
+              <input
+                id="Email"
+                class="form-control mb-2"
+                type="text"
+                placeholder="Ivanov55@yandex.ru"
+              />
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+              Отмена
+            </button>
+            <button
+              type="submit"
+              data-bs-dismiss="modalSign"
+              class="btn btn-primary"
+            >
+              Войти
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modal Reg-->
+    <div
+      class="modal fade"
+      id="modal"
+      tabindex="-1"
+      aria-labelledby="modalReg"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalReg">Регистрация</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Я Учащийся
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <form>
+                      <label for="name" class="form-label">ФИО</label>
+                      <input
+                        id="name"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="Иванов Иван Иванович"
+                      />
+                      <label for="school" class="form-label"
+                        >Образовательная организация</label
+                      >
+                      <input
+                        id="school"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="МБОУ СОШ п. Высокогорный"
+                      />
+                      <label for="Scholl-Email" class="form-label">Email</label>
+                      <input
+                        id="School-Email"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="visokogorniy_Edu@mail.ru"
+                      />
+                      <p class="form-text">
+                        Организация должна подтвердить то, что вы являетесь
+                        учащимся
+                      </p>
+                      <label for="level" class="form-label">Класс</label>
+                      <input
+                        id="level"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="10Б"
+                      />
+                      <label for="Email" class="form-label">Email</label>
+                      <input
+                        id="Email"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="Ivanov55@yandex.ru"
+                      />
+                      <p class="form-text">
+                        После подтверждения организацией ваш персональный токен
+                        будет отправлен на указанный адрес
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Я Преподователь
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <form>
+                      <label for="name" class="form-label">ФИО</label>
+                      <input
+                        id="name"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="Иванов Иван Иванович"
+                      />
+                      <label for="school" class="form-label"
+                        >Образовательная организация</label
+                      >
+                      <input
+                        id="school"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="МБОУ СОШ п. Высокогорный"
+                      />
+                      <label for="Scholl-Email" class="form-label"
+                        >Email Образовательного учреждения</label
+                      >
+                      <input
+                        id="School-Email"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="visokogorniy_Edu@mail.ru"
+                      />
+                      <p class="form-text">
+                        Организация должна подтвердить то, что вы являетесь
+                        преподователем
+                      </p>
+                      <label for="level" class="form-label">Предмет</label>
+                      <input
+                        id="level"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="Математика"
+                      />
+                      <label for="Email" class="form-label">Email</label>
+                      <input
+                        id="Email"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="Ivanov55@yandex.ru"
+                      />
+                      <p class="form-text">
+                        После подтверждения организацией ваш персональный токен
+                        будет отправлен на указанный адрес
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Я Администратор
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <form>
+                      <label for="name" class="form-label">ФИО</label>
+                      <input
+                        id="name"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="Иванов Иван Иванович"
+                      />
+                      <label for="school" class="form-label"
+                        >Образовательная организация</label
+                      >
+                      <input
+                        id="school"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="МБОУ СОШ п. Высокогорный"
+                      />
+                      <label for="Scholl-Email" class="form-label"
+                        >Email Образовательного учреждения</label
+                      >
+                      <input
+                        id="School-Email"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="visokogorniy_Edu@mail.ru"
+                      />
+                      <p class="form-text">
+                        Организация должна подтвердить то, что вы являетесь
+                        администратором
+                      </p>
+                      <label for="level" class="form-label">Предмет</label>
+                      <input
+                        id="level"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="Иностранный язык"
+                      />
+                      <label for="Email" class="form-label">Email</label>
+                      <input
+                        id="Email"
+                        class="form-control mb-2"
+                        type="text"
+                        placeholder="Ivanov55@yandex.ru"
+                      />
+                      <p class="form-text">
+                        После подтверждения организацией ваш персональный токен
+                        будет отправлен на указанный адрес
+                      </p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+              Отмена
+            </button>
+            <button
+              type="submit"
+              data-bs-dismiss="modal"
+              class="btn btn-primary"
+            >
+              Получить
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
